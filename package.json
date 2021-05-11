@@ -1,0 +1,40 @@
+{
+	"name": "cleanslate",
+	"displayName": "Cleanslate",
+	"keywords": [
+		"theme",
+		"dark"
+	],
+	"publisher": "marticongost",
+	"author": {
+		"name": "Martí Congost",
+		"email": "marticongost@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:marticongost/cleanslate.git"
+	},
+	"description": "A dark theme, with a somewhat blackboard-ish style",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.53.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "cleanslate",
+				"uiTheme": "vs-dark",
+				"path": "./themes/cleanslate-color-theme.json"
+			}
+		]
+	},
+	"license": "GPL-3.0-or-later",
+	"__metadata": {
+		"id": "6f155edd-f683-4e84-aaae-1fa25b3c06ab",
+		"publisherDisplayName": "marticongost",
+		"publisherId": "58640afe-14e6-4032-9659-5c846720daf1"
+	}
+}
