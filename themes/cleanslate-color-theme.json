@@ -321,6 +321,10 @@
 	"semanticTokenColors": {
 		"*.typeHint:python": {
 			"foreground": "#9b86b4"
+		},
+		"magicFunction.declaration:python": {
+			"foreground": "#9b86b4",
+			"bold": true
 		}
 	}
 }
