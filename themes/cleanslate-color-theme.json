@@ -82,13 +82,14 @@
 				"keyword.control",
 				"keyword.operator.logical.python",
 				"keyword.operator.new",
+				"keyword.operator.expression",
 				"keyword.type.graphql",
 				"keyword.scalar.graphql",
 				"keyword.enum.graphql",
 				"keyword.interface.graphql",
 				"keyword.directive.graphql",
 				"keyword.on.graphql",
-				"storage"
+				"storage",
 			],
 			"settings": {
 				"foreground": "#8eb2ca"
