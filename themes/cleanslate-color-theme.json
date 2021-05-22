@@ -316,5 +316,10 @@
 				"fontStyle": "underline"
 			}
 		},
-	]
+	],
+	"semanticTokenColors": {
+		"*.typeHint:python": {
+			"foreground": "#9b86b4"
+		}
+	}
 }
