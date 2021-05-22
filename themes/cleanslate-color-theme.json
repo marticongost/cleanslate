@@ -94,9 +94,10 @@
 				"keyword.directive.graphql",
 				"keyword.on.graphql",
 				"keyword.other",
-				"storage.type.function.shell",
+				"storage.type.function",
+				"storage.type.class",
 				"support.function.builtin.shell",
-				"storage",
+				"storage.modifier",
 			],
 			"settings": {
 				"foreground": "#8eb2ca"
@@ -212,7 +213,10 @@
 			"name": "Type declaration",
 			"scope": [
 				"meta.type.object.graphql support.type.graphql",
-				"storage.type.java"
+				"storage.type.java",
+				"storage.type.primitive.java",
+				"storage.type.generic.java",
+				"storage.type.object.array.java"
 			],
 			"settings": {
 				"foreground": "#9b86b4",
