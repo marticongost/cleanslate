@@ -23,7 +23,9 @@
 				"meta.embedded variable.other",
 				"punctuation.accessor",
 				"meta.function-call",
-				"constant"
+				"constant",
+				"storage.modifier.package.java",
+				"storage.modifier.import.java"
 			],
 			"settings": {
 				"foreground": "#eee",
@@ -37,7 +39,7 @@
 				"variable.language.this",
 				"support.type.builtin.graphql",
 				"support.type.location.graphql",
-				"constant.character.entity"
+				"constant.character.entity",
 			],
 			"settings": {
 				"foreground": "#42a08b",
@@ -89,6 +91,7 @@
 				"keyword.interface.graphql",
 				"keyword.directive.graphql",
 				"keyword.on.graphql",
+				"keyword.other",
 				"storage",
 			],
 			"settings": {
@@ -115,7 +118,8 @@
 				"support.type.graphql",
 				"support.type.enum.graphql",
 				"entity.scalar.graphql",
-				"entity.name.function.directive.graphql"
+				"entity.name.function.directive.graphql",
+				"meta.method.identifier.java entity.name.function"
 			],
 			"settings": {
 				"foreground": "#dfcb94",
@@ -202,7 +206,8 @@
 		{
 			"name": "Type declaration",
 			"scope": [
-				"meta.type.object.graphql support.type.graphql"
+				"meta.type.object.graphql support.type.graphql",
+				"storage.type.java"
 			],
 			"settings": {
 				"foreground": "#9b86b4",
@@ -218,7 +223,10 @@
 				"punctuation.separator",
 				"punctuation.section.property-list",
 				"meta.brace",
-				"punctuation.operation.graphql"
+				"punctuation.operation.graphql",
+				"punctuation.section",
+				"punctuation.bracket.angle.java",
+				"punctuation.bracket.round.java"
 			],
 			"settings": {
 				"foreground": "#999"
@@ -297,9 +305,10 @@
 			}
 		},
 		{
-			"name": "Decorator",
+			"name": "Decorators and annotations",
 			"scope": [
 				"entity.name.function.decorator",
+				"storage.type.annotation.java",
 				"meta.function.decorator",
 			],
 			"settings": {
