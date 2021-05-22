@@ -39,7 +39,7 @@
 				"variable.language.this",
 				"support.type.builtin.graphql",
 				"support.type.location.graphql",
-				"constant.character.entity",
+				"constant.character.entity"
 			],
 			"settings": {
 				"foreground": "#42a08b",
@@ -71,7 +71,9 @@
 			"scope": [
 				"punctuation.definition.template-expression",
 				"variable.interpolation.scss punctuation.definition",
-				"constant.character.format.placeholder"
+				"constant.character.format.placeholder",
+				"punctuation.definition.variable.shell",
+				"variable.other.normal.shell"
 			],
 			"settings": {
 				"foreground": "#c55c5c",
@@ -92,6 +94,8 @@
 				"keyword.directive.graphql",
 				"keyword.on.graphql",
 				"keyword.other",
+				"storage.type.function.shell",
+				"support.function.builtin.shell",
 				"storage",
 			],
 			"settings": {
@@ -119,7 +123,8 @@
 				"support.type.enum.graphql",
 				"entity.scalar.graphql",
 				"entity.name.function.directive.graphql",
-				"meta.method.identifier.java entity.name.function"
+				"meta.method.identifier.java entity.name.function",
+				"entity.name.function.shell"
 			],
 			"settings": {
 				"foreground": "#dfcb94",
