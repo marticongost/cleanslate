@@ -137,7 +137,8 @@
 			"name": "Key",
 			"scope": [
 				"meta.object-literal.key",
-				"support.type.property-name"
+				"support.type.property-name",
+				"variable.other.proto"
 			],
 			"settings": {
 				"foreground": "#ceab6f"
@@ -155,7 +156,9 @@
 				"entity.scalar.graphql",
 				"entity.name.function.directive.graphql",
 				"meta.method.identifier.java entity.name.function",
-				"entity.name.function.shell"
+				"entity.name.function.shell",
+				"entity.name.class.message.proto",
+				"entity.name.class.proto"
 			],
 			"settings": {
 				"foreground": "#dfcb94",
@@ -247,6 +250,7 @@
 				"storage.type.primitive.java",
 				"storage.type.generic.java",
 				"storage.type.object.array.java",
+				"storage.type.proto",
 				"entity.name.type.instance.jsdoc"
 			],
 			"settings": {
