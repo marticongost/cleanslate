@@ -56,6 +56,34 @@
 			}
 		},
 		{
+			"name": "JSDoc",
+			"scope": [
+				"storage.type.class.jsdoc"
+			],
+			"settings": {
+				"foreground": "#b8c7ba",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "JSDoc punctuation",
+			"scope": [
+				"punctuation.definition.block.tag.jsdoc"
+			],
+			"settings": {
+				"foreground": "#999"
+			}
+		},
+		{
+			"name": "JSDoc variable",
+			"scope": [
+				"variable.other.jsdoc"
+			],
+			"settings": {
+				"foreground": "#eee"
+			}
+		},
+		{
 			"name": "String",
 			"scope": [
 				"string",
@@ -216,7 +244,8 @@
 				"storage.type.java",
 				"storage.type.primitive.java",
 				"storage.type.generic.java",
-				"storage.type.object.array.java"
+				"storage.type.object.array.java",
+				"entity.name.type.instance.jsdoc"
 			],
 			"settings": {
 				"foreground": "#9b86b4",
