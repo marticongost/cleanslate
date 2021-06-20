@@ -103,10 +103,21 @@
 				"constant.character.format.placeholder",
 				"punctuation.definition.variable.shell",
 				"variable.other.normal.shell",
-				"punctuation.definition.variable.makefile"
+				"punctuation.definition.variable.makefile",
+				"meta.function.block.end.bosun support.constant.bosun"
 			],
 			"settings": {
 				"foreground": "#c55c5c",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Interpolation directives",
+			"scope": [
+				"meta.function.block.end.bosun keyword.control.bosun"
+			],
+			"settings": {
+				"foreground": "#e4b2ac",
 				"fontStyle": "bold"
 			}
 		},
@@ -130,7 +141,8 @@
 				"storage.type.class",
 				"support.function.builtin.shell",
 				"storage.modifier",
-				"storage.type.local.java"
+				"storage.type.local.java",
+				"storage.type.bosun"
 			],
 			"settings": {
 				"foreground": "#8eb2ca"
@@ -237,9 +249,10 @@
 			}
 		},
 		{
-			"name": "SCSS variables",
+			"name": "Preprocessor variables",
 			"scope": [
-				"variable.scss"
+				"variable.scss",
+				"source.bosun variable.other"
 			],
 			"settings": {
 				"foreground": "#a3937e",
