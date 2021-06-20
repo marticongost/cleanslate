@@ -39,7 +39,8 @@
 				"variable.language.this",
 				"support.type.builtin.graphql",
 				"support.type.location.graphql",
-				"constant.character.entity"
+				"constant.character.entity",
+				"support.function.target.PHONY.makefile"
 			],
 			"settings": {
 				"foreground": "#42a08b",
@@ -101,7 +102,8 @@
 				"variable.interpolation.scss punctuation.definition",
 				"constant.character.format.placeholder",
 				"punctuation.definition.variable.shell",
-				"variable.other.normal.shell"
+				"variable.other.normal.shell",
+				"punctuation.definition.variable.makefile"
 			],
 			"settings": {
 				"foreground": "#c55c5c",
@@ -159,7 +161,8 @@
 				"meta.method.identifier.java entity.name.function",
 				"entity.name.function.shell",
 				"entity.name.class.message.proto",
-				"entity.name.class.proto"
+				"entity.name.class.proto",
+				"entity.name.function.target.makefile"
 			],
 			"settings": {
 				"foreground": "#dfcb94",
@@ -234,7 +237,7 @@
 			}
 		},
 		{
-			"name": "SCSS variable",
+			"name": "SCSS variables",
 			"scope": [
 				"variable.scss"
 			],
@@ -313,6 +316,15 @@
 				"entity.other.attribute-name",
 				"punctuation.section.embedded.begin.js.jsx",
 				"punctuation.section.embedded.end.js.jsx"
+			],
+			"settings": {
+				"foreground": "#9b86b4",
+			}
+		},
+		{
+			"name": "Makefile variable",
+			"scope": [
+				"variable.other.makefile"
 			],
 			"settings": {
 				"foreground": "#9b86b4",
