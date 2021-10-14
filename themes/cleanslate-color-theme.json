@@ -280,7 +280,7 @@
 				"entity.name.type.kotlin"
 			],
 			"settings": {
-				"foreground": "#9b86b4",
+				"foreground": "#b1a6c2",
 				"fontStyle": ""
 			}
 		},
@@ -340,7 +340,7 @@
 				"punctuation.section.embedded.end.js.jsx"
 			],
 			"settings": {
-				"foreground": "#9b86b4",
+				"foreground": "#b1a6c2",
 			}
 		},
 		{
@@ -349,7 +349,7 @@
 				"variable.other.makefile"
 			],
 			"settings": {
-				"foreground": "#9b86b4",
+				"foreground": "#b1a6c2",
 			}
 		},
 		{
@@ -408,10 +408,10 @@
 	],
 	"semanticTokenColors": {
 		"*.typeHint:python": {
-			"foreground": "#9b86b4"
+			"foreground": "#b1a6c2"
 		},
 		"magicFunction.declaration:python": {
-			"foreground": "#9b86b4",
+			"foreground": "#b1a6c2",
 			"bold": true
 		},
 		"variable:kotlin": {
