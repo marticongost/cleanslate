@@ -104,7 +104,9 @@
 				"punctuation.definition.variable.shell",
 				"variable.other.normal.shell",
 				"punctuation.definition.variable.makefile",
-				"meta.function.block.end.bosun support.constant.bosun"
+				"meta.function.block.end.bosun support.constant.bosun",
+				"variable.string-escape.kotlin",
+				"meta.template.expression.kotlin"
 			],
 			"settings": {
 				"foreground": "#c55c5c",
@@ -142,7 +144,10 @@
 				"support.function.builtin.shell",
 				"storage.modifier",
 				"storage.type.local.java",
-				"storage.type.bosun"
+				"storage.type.bosun",
+				"keyword.hard.kotlin",
+				"storage.type.import.kotlin",
+				"storage.type.variable.kotlin"
 			],
 			"settings": {
 				"foreground": "#8eb2ca"
@@ -174,7 +179,9 @@
 				"entity.name.function.shell",
 				"entity.name.class.message.proto",
 				"entity.name.class.proto",
-				"entity.name.function.target.makefile"
+				"entity.name.function.target.makefile",
+				"entity.name.type.class.kotlin",
+				"entity.name.function.declaration.kotlin"
 			],
 			"settings": {
 				"foreground": "#dfcb94",
@@ -212,7 +219,8 @@
 				"keyword.operator.comparison",
 				"keyword.operator.ternary",
 				"keyword.operator.nulltype.graphql",
-				"punctuation.assignment.graphql"
+				"punctuation.assignment.graphql",
+				"keyword.operator.kotlin"
 			],
 			"settings": {
 				"foreground": "#b3a28d"
@@ -268,7 +276,8 @@
 				"storage.type.generic.java",
 				"storage.type.object.array.java",
 				"storage.type.proto",
-				"entity.name.type.instance.jsdoc"
+				"entity.name.type.instance.jsdoc",
+				"entity.name.type.kotlin"
 			],
 			"settings": {
 				"foreground": "#9b86b4",
@@ -404,6 +413,12 @@
 		"magicFunction.declaration:python": {
 			"foreground": "#9b86b4",
 			"bold": true
+		},
+		"variable:kotlin": {
+			"foreground": "#eee"
+		},
+		"parameter:kotlin": {
+			"foreground": "#ceab6f"
 		}
 	}
 }
