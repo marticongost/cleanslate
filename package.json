@@ -15,7 +15,7 @@
 		"url": "git@github.com:marticongost/cleanslate.git"
 	},
 	"description": "A dark theme, with a somewhat blackboard-ish style",
-	"version": "0.4.0",
+	"version": "0.5.0",
 	"engines": {
 		"vscode": "^1.53.0"
 	},
