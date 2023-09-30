@@ -141,7 +141,10 @@
         "storage.type.object.kotlin",
         "storage.type.interface.ts",
         "storage.type.type.ts",
-        "storage.type.ts"
+        "storage.type.ts",
+        "storage.type.interface.tsx",
+        "storage.type.type.tsx",
+        "storage.type.tsx"
       ],
       "settings": {
         "foreground": "#8eb2ca"
@@ -154,7 +157,9 @@
         "support.type.property-name",
         "variable.other.proto",
         "meta.definition.property.ts",
-        "meta.object.member.ts"
+        "meta.object.member.ts",
+        "meta.definition.property.tsx",
+        "meta.object.member.tsx"
       ],
       "settings": {
         "foreground": "#ceab6f"
@@ -180,7 +185,10 @@
         "entity.name.function.declaration.kotlin",
         "entity.name.type.interface.ts",
         "entity.name.type.alias.ts",
-        "entity.name.type.class.ts"
+        "entity.name.type.class.ts",
+        "entity.name.type.interface.tsx",
+        "entity.name.type.alias.tsx",
+        "entity.name.type.class.tsx"
       ],
       "settings": {
         "foreground": "#dfcb94",
@@ -220,7 +228,8 @@
         "keyword.operator.nulltype.graphql",
         "punctuation.assignment.graphql",
         "keyword.operator.kotlin",
-        "keyword.operator.optional.ts"
+        "keyword.operator.optional.ts",
+        "keyword.operator.optional.tsx"
       ],
       "settings": {
         "foreground": "#b3a28d"
@@ -269,7 +278,12 @@
         "storage.type.proto",
         "entity.name.type.instance.jsdoc",
         "entity.name.type.kotlin",
-        "meta.type.annotation.ts"
+        "meta.type.annotation.ts",
+        "entity.name.type.ts",
+        "meta.type.tuple.ts",
+        "meta.type.annotation.tsx",
+        "entity.name.type.tsx",
+        "meta.type.tuple.tsx"
       ],
       "settings": {
         "foreground": "#b1a6c2",
@@ -394,6 +408,14 @@
     },
     "parameter:kotlin": {
       "foreground": "#ceab6f"
+    },
+    "function.declaration.readonly:typescript": {
+      "foreground": "#dfcb94",
+      "fontStyle": "bold"
+    },
+    "function.declaration.readonly:typescriptreact": {
+      "foreground": "#dfcb94",
+      "fontStyle": "bold"
     }
   }
 }
