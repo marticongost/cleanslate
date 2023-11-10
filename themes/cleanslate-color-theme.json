@@ -188,7 +188,8 @@
         "entity.name.type.class.ts",
         "entity.name.type.interface.tsx",
         "entity.name.type.alias.tsx",
-        "entity.name.type.class.tsx"
+        "entity.name.type.class.tsx",
+        "markup.heading"
       ],
       "settings": {
         "foreground": "#dfcb94",
@@ -302,10 +303,13 @@
         "punctuation.operation.graphql",
         "punctuation.section",
         "punctuation.bracket.angle.java",
-        "punctuation.bracket.round.java"
+        "punctuation.bracket.round.java",
+        "punctuation.definition.link.title",
+        "meta.link.inline.markdown punctuation.definition"
       ],
       "settings": {
-        "foreground": "#999"
+        "foreground": "#999",
+        "fontStyle": ""
       }
     },
     {
@@ -392,6 +396,36 @@
       "scope": ["*url*", "*link*", "*uri*"],
       "settings": {
         "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Bold markup",
+      "scope": ["markup.bold"],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Italic markup",
+      "scope": ["markup.italic"],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Link URL markup",
+      "scope": ["meta.link"],
+      "settings": {
+        "foreground": "#8eb2ca",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Link title markup",
+      "scope": ["string.other.link.title"],
+      "settings": {
+        "foreground": "#b1a6c2",
+        "fontStyle": "bold"
       }
     }
   ],
