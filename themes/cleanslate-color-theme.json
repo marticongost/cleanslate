@@ -144,7 +144,9 @@
         "storage.type.ts",
         "storage.type.interface.tsx",
         "storage.type.type.tsx",
-        "storage.type.tsx"
+        "storage.type.tsx",
+        "storage.type.model",
+        "storage.type.config"
       ],
       "settings": {
         "foreground": "#8eb2ca"
@@ -159,7 +161,8 @@
         "meta.definition.property.ts",
         "meta.object.member.ts",
         "meta.definition.property.tsx",
-        "meta.object.member.tsx"
+        "meta.object.member.tsx",
+        "variable.parameter.key.prisma"
       ],
       "settings": {
         "foreground": "#ceab6f"
@@ -189,7 +192,8 @@
         "entity.name.type.interface.tsx",
         "entity.name.type.alias.tsx",
         "entity.name.type.class.tsx",
-        "markup.heading"
+        "markup.heading",
+        "entity.name.type.model"
       ],
       "settings": {
         "foreground": "#dfcb94",
@@ -211,7 +215,8 @@
       "scope": [
         "meta.function variable.parameter",
         "meta.method.declaration variable.parameter",
-        "variable.parameter.graphql"
+        "variable.parameter.graphql",
+        "entity.name.type.config"
       ],
       "settings": {
         "foreground": "#ceab6f"
@@ -284,7 +289,8 @@
         "meta.type.tuple.ts",
         "meta.type.annotation.tsx",
         "entity.name.type.tsx",
-        "meta.type.tuple.tsx"
+        "meta.type.tuple.tsx",
+        "support.type.primitive"
       ],
       "settings": {
         "foreground": "#b1a6c2",
@@ -385,7 +391,8 @@
       "scope": [
         "entity.name.function.decorator",
         "storage.type.annotation.java",
-        "meta.function.decorator"
+        "meta.function.decorator",
+        "entity.name.function.attribute.prisma"
       ],
       "settings": {
         "foreground": "#999"
@@ -425,6 +432,14 @@
       "scope": ["string.other.link.title"],
       "settings": {
         "foreground": "#b1a6c2",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Prisma relation",
+      "scope": ["variable.language.relations"],
+      "settings": {
+        "foreground": "#8d5576",
         "fontStyle": "bold"
       }
     }
