@@ -146,7 +146,8 @@
         "storage.type.type.tsx",
         "storage.type.tsx",
         "storage.type.model",
-        "storage.type.config"
+        "storage.type.config",
+        "storage.type.enum"
       ],
       "settings": {
         "foreground": "#8eb2ca"
@@ -193,7 +194,8 @@
         "entity.name.type.alias.tsx",
         "entity.name.type.class.tsx",
         "markup.heading",
-        "entity.name.type.model"
+        "entity.name.type.model",
+        "entity.name.type.enum"
       ],
       "settings": {
         "foreground": "#dfcb94",
